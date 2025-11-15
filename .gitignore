@@ -1,0 +1,45 @@
+# RCard .gitignore
+
+# JSON Data Directory (sensitive user data)
+jsondata/*
+!jsondata/.gitkeep
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache
+cache/
+tmp/
